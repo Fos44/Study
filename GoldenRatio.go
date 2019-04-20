@@ -22,18 +22,18 @@ func f( x float64) float64  {
 
 func main() {
 	for math.Abs(b - a) > 2 * eps  {
+		fmt.Println("X:", x)
+		fmt.Println("Y:", y)
 		if f(x) < f(y) {
 				b = y
 				y = x
 				x = a + b - y
-			fmt.Println("X:", x)
-			fmt.Println("Y:", y)
+
 		} else {
 				a = x
 				x = y
 				y = a + b - x
-			fmt.Println("X:", x)
-			fmt.Println("Y:", y)
+
 				}
 		s = s + 1
 		}
