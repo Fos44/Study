@@ -26,10 +26,14 @@ func main() {
 				b = y
 				y = x
 				x = a + b - y
+			fmt.Println("X:", x)
+			fmt.Println("Y:", y)
 		} else {
 				a = x
 				x = y
 				y = a + b - x
+			fmt.Println("X:", x)
+			fmt.Println("Y:", y)
 				}
 		s = s + 1
 		}
