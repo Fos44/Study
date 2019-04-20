@@ -1,3 +1,3 @@
 # Study
-Math Prog
-There is my homework for discipline Math Programming
+Math Prog.
+Here are some methods for finding the minimum point of a function in the Go programming language
