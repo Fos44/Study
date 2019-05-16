@@ -22,9 +22,9 @@ func bmi(x float64, y float64)string{
 
 func main() {
 
-	const n = 3
-	var a = [n]float64{80, 55, 49}
-	var b = [n]float64{1.73, 1.58, 1.91}
+	const n = 1
+	var a = [n]float64{57}
+	var b = [n]float64{ 1.64}
 	var index = [n]float64{}
 
 	var norma = [n]string{}
