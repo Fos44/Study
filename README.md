@@ -1,2 +1,2 @@
 # Study
-Here some of my simple progpamm
+Here some of my simple program
